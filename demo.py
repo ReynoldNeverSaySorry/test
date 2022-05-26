@@ -23,7 +23,8 @@ def get_label(slave):
         .find_all('td', attrs={'style': 'vertical-align: top'})
     current_executors = len(maxexecutors) - len(free_executors)
     return current_executors
-
+    print 11111
+    ex
 
 if __name__ == "__main__":
     Fire(get_label)
